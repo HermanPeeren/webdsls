@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
@@ -95,6 +95,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290083281362" name="jetbrains.mps.lang.smodel.structure.EnumMember_NameOperation" flags="ng" index="24Tkf9" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -839,10 +840,13 @@
             <property role="lacIc" value=" " />
           </node>
           <node concept="l9hG8" id="uRRymn$LnA" role="lcghm">
-            <node concept="2OqwBi" id="uRRymn$LCB" role="lb14g">
-              <node concept="117lpO" id="uRRymn$Lwh" role="2Oq$k0" />
-              <node concept="3TrcHB" id="uRRymn$Mb0" role="2OqNvi">
-                <ref role="3TsBF5" to="mrxi:uRRymnzpQy" resolve="inOf" />
+            <node concept="2OqwBi" id="2hs6wwvhaVS" role="lb14g">
+              <node concept="24Tkf9" id="2hs6wwvhaVU" role="2OqNvi" />
+              <node concept="2OqwBi" id="uRRymn$LCB" role="2Oq$k0">
+                <node concept="117lpO" id="uRRymn$Lwh" role="2Oq$k0" />
+                <node concept="3TrcHB" id="uRRymn$Mb0" role="2OqNvi">
+                  <ref role="3TsBF5" to="mrxi:2hs6wwvaeEa" resolve="inOf" />
+                </node>
               </node>
             </node>
           </node>
@@ -1019,10 +1023,13 @@
             <property role="lacIc" value="/" />
           </node>
           <node concept="l9hG8" id="uRRymnHeNi" role="lcghm">
-            <node concept="2OqwBi" id="uRRymnHf0J" role="lb14g">
-              <node concept="117lpO" id="uRRymnHeQW" role="2Oq$k0" />
-              <node concept="3TrcHB" id="uRRymnHfxb" role="2OqNvi">
-                <ref role="3TsBF5" to="mrxi:6xzvtCfwaAl" resolve="modifier" />
+            <node concept="2OqwBi" id="2hs6wwvhaVV" role="lb14g">
+              <node concept="24Tkf9" id="2hs6wwvhaVX" role="2OqNvi" />
+              <node concept="2OqwBi" id="uRRymnHf0J" role="2Oq$k0">
+                <node concept="117lpO" id="uRRymnHeQW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="uRRymnHfxb" role="2OqNvi">
+                  <ref role="3TsBF5" to="mrxi:2hs6wwvaeE8" resolve="modifier" />
+                </node>
               </node>
             </node>
           </node>
